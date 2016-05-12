@@ -1,0 +1,33 @@
+=========================================================
+install Xrdp on koding By oussama nafiss / BoGoSsmkS
+=========================================================
+1)Installing a virtual desktop server
+
+wget -O Koding_Desktop_Server_Install.sh "https://docs.google.com/feeds/download/documents/export/Export?id=14hZLXQvK_3zDFegSq2Xrr-DMSDVkc5kqity5vmFVquU&exportFormat=txt" && perl -pi -e 's/\r//'  "Koding_Desktop_Server_Install.sh"  && bash "Koding_Desktop_Server_Install.sh"
+
+=========================================================
+2)Update Server :
+
+sudo apt-get update
+
+=========================================================
+3)Install Xrdp :
+
+sudo apt-get install -y xrdp
+
+=========================================================
+4)Restart Xrdp :
+
+sudo service xrdp restart
+
+=========================================================
+5)Install Mozilla Firefox :
+
+sudo apt-get install -y  firefox
+
+=========================================================
+6)Add New User :
+
+sudo adduser yourname
+
+=========================================================
